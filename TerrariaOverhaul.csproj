@@ -4,9 +4,6 @@
 	<Import Project="BuildTools\BuildTools.targets" />
 
 	<PropertyGroup>
-		<AssemblyName>TerrariaOverhaul</AssemblyName>
-		<LangVersion>11.0</LangVersion>
-		<TargetFramework>net6.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	</PropertyGroup>
@@ -15,7 +12,6 @@
 		<Reference Include="Tomlyn">
 			<HintPath>lib/Tomlyn.dll</HintPath>
 		</Reference>
-		<PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
 	</ItemGroup>
 
 	<ItemGroup>
