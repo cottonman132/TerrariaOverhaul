@@ -80,7 +80,7 @@ public sealed class AmbienceSystem : ModSystem
 
 				using (new Logging.QuietExceptionHandle()) {
 					try {
-						RegisterAmbienceTrack(entityName, ambienceTrackJson.ToObject<AmbienceTrack>());
+						RegisterAmbienceTrack(entityName, ambienceTrackJson.ToObject<AmbienceTrack>()!);
 					}
 					catch (Exception e) {
 						DebugSystem.Log($"Failed to parse '{fullFilePath}':\r\n{e.Message}");

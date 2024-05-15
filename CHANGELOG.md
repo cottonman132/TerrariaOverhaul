@@ -44,6 +44,7 @@
 - Fixed Overhaul's main menu buttons sometimes being incorrectly shown in English when a different language is selected.
 - A few more GUI elements were made localizable.
 ### Fixes
+- Fixed ambience tracks being broken again. If only unit tests were to be a thing...
 - Fixed a rare cross-mod issue where Overhaul's falling trees would cause issues by using outdated "spawn sources" in item/loot instantiation.
 
 # 5.0 BETA 14

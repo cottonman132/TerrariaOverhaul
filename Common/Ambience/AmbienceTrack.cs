@@ -5,7 +5,9 @@ using Terraria.Audio;
 
 namespace TerrariaOverhaul.Common.Ambience;
 
-public struct AmbienceTrack
+// This could be a struct, but Newtonsoft.Json doesn't handle their field initializers correctly.
+// In 2024 that is!
+public sealed class AmbienceTrack
 {
 	public string Name = string.Empty;
 	public SlotId InstanceReference = SlotId.Invalid;
