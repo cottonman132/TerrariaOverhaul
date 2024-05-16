@@ -159,7 +159,7 @@ Balance: {
 	}
 
 	EnableDamageRandomizationRemoval: {
-		DisplayName: "Activar remoción de randomización de daño"
+		DisplayName: "Activar eliminación de aleatorización de daño"
 		Description: "Si está activa, todas las fuentes de daño serán justas y predecibles."
 	}
 
@@ -169,8 +169,8 @@ Balance: {
 	}
 
 	EnableManaDropsRework: {
-		DisplayName: "Activar ajuste a regeneración de mana en combate"
-		Description: "Si está activa, las estrellas de mana dejadas aleatoriamente por los enemigos se reemplazan con estrellitas que dejarán caer a medida que reciban daño, mientras haya jugadores cerca sin el maná lleno."
+		DisplayName: "Activar ajuste a regeneración de maná en combate"
+		Description: "Si está activa, las estrellas de maná dejadas aleatoriamente por los enemigos se reemplazan con estrellitas que dejarán caer a medida que reciban daño, mientras haya jugadores cerca sin el maná lleno."
 	}
 }
 
@@ -208,7 +208,7 @@ BloodAndGore: {
 	}
 
 	EnableGoreGibbing: {
-		DisplayName: "Activar destruccion de restos"
+		DisplayName: "Activar destrucción de restos"
 		Description: "Indica si los restos de cadáveres pueden ser destruídos, convirtiendo algunos en restos más pequeños."
 	}
 
@@ -228,12 +228,12 @@ BloodAndGore: {
 	}
 
 	ParticleMultiplierSafe: {
-		DisplayName: "Frecuencia de generacion de particulas no sangrientas"
+		DisplayName: "Frecuencia de generación de partículas no sangrientas"
 		Description: "Si está por debajo de 1.0 reduce la cantidad de partículas no sangrientas. Deja este valor en 0.0 para desactivarlas por completo."
 	}
 
 	ParticleMultiplierViolent: {
-		DisplayName: "Frecuencia de generacion de particulas sangrientas"
+		DisplayName: "Frecuencia de generación de partículas sangrientas"
 		Description: "Si está por debajo de 1.0 reduce la cantidad de partículas sangrientas. Deja este valor en 0.0 para desactivarlas por completo."
 	}
 }
