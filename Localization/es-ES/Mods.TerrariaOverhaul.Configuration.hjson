@@ -159,7 +159,7 @@ Balance: {
 	}
 
 	EnableDamageRandomizationRemoval: {
-		DisplayName: "Activar eliminación de aleatorización de daño"
+		DisplayName: "Activar eliminación de variación en daño"
 		Description: "Si está activa, todas las fuentes de daño serán justas y predecibles."
 	}
 
